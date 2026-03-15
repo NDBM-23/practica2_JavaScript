@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Javascript</title>
+
+	<style>
+		h1 {
+			text-transform: uppercase;
+			margin: 10px 0px;
+		}
+	</style>
+
+	<script defer>
+		function saluda() {
+			document.getElementById("title").innerHTML = "Saludo in-Doc";
+		}
+	</script>
+</head>
+
+<body>
+	<h1 id="title">Javascript, inner-HTML</h1>
+	<button type="button" id="bulbButton" onclick="saluda()">Saludar</button>
+</body>
+
+</html>
