@@ -61,6 +61,7 @@ body {
     background-color: inherit;
     text-align: right;
     font-size: clamp(8px, min(70cqw, 70cqh), 80px);
+    color: #004369;
     caret-color: transparent;
     outline: none;
 }
@@ -177,7 +178,8 @@ body {
     border-radius: inherit;
     background-color: inherit;
 
-    font-size: clamp(8px, min(80cqw, 80cqh), 80px);
+    font-size: clamp(8px, min(60cqw, 60cqh), 80px);
+    color: #004369;
 }
 
 .calculadora .botones .boton button:hover {
